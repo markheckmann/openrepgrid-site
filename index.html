@@ -16,7 +16,43 @@
 		
 	</head>
     <body>
-   
+    	
+	
+	<!--  Navbar -->
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+          <a class="brand" href="./index.html">OpenRepGrid</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="./index.html">Home</a>
+              </li>
+             
+  				<li class="dropdown">
+    				<a  href="#" class="dropdown-toggle" data-toggle="dropdown">
+          			   	Projects
+          				<b class="caret"></b>
+          			</a>
+    			<ul class="dropdown-menu">
+     				<li><a href="http://markheckmann.github.io/OpenRepGrid/">OpenRepGrid R package</a></li>
+  					<li><a href="http://www.openrepgrid.uni-bremen.de/wiki/">OpenRepGrid wiki</a></li>
+  					<li><a href="http://www.onair.openrepgrid.org">OpenRepGrid onair</a></li>
+  					<li><a href="http://www.multigridone.openrepgrid.org">multigrid one</a></li>
+   				 </ul>
+  				</li>             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div class="jumbotron masthead">
   <div class="container">
     <h1>OpenRepGrid</h1>
@@ -24,16 +60,13 @@
   
     <ul class="masthead-links">
       <li>
-        <a href="https://github.com/twbs/bootstrap" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Jumbotron links', 'GitHub project']);">GitHub project</a>
+        <a href="https://github.com/markheckmann/openrepgrid-site" target="_blank">GitHub project</a>
       </li>
       <li>
-        <a href="./getting-started.html#examples" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Jumbotron links', 'Examples']);">Examples</a>
+        <a href="#projects">Go to projects</a>
       </li>
       <li>
-        <a href="./extend.html" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Jumbotron links', 'Extend']);">Extend</a>
-      </li>
-      <li>
-        Version 2.3.2
+        Version January, 2014
       </li>
     </ul>
   </div>
@@ -42,7 +75,7 @@
 
 <div class="bs-docs-social">
   <div class="container">
-    <ul class="bs-docs-social-buttons">
+   <!-- <ul class="bs-docs-social-buttons">
       <li>
         <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
       </li>
@@ -56,9 +89,12 @@
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twbs.github.com/bootstrap/" data-count="horizontal" data-via="twbootstrap" data-related="mdo:Creator of Twitter Bootstrap">Tweet</a>
       </li>
     </ul>
+   -->
   </div>
 </div>
 
+
+<!--  Information -->
 
 <div class="container">
 
@@ -91,69 +127,12 @@
       </div>
     </div>
 
-<!--
-    <hr class="soften">
-    
-    <h1>Active Projects</h1>
-    <p class="marketing-byline">Several projects designed from the community for the community</p>
-    <div class="row-fluid">
-    	<ul class="thumbnails example-sites">
-        	<li>
-		        <div class="span4">
-		          <a class="thumbnail project-thumb-img" href="http://markheckmann.github.io/OpenRepGrid/" target="_blank">
-		            <img src="./img/openrepgrid_page.png" alt="OpenRepGrid R package">
-		          </a>
-		        </div>
-		        <div class="span8">
-		          <p class="text-left description">The <a href="http://markheckmann.github.io/OpenRepGrid/" target="_blank">OpenRepGrid R package</a> 
-		          	is the backbone of most of the grid analysis software you find on this site. 
-		     	 	It does the calculations and visualizations. You can use the package to build your ownb web-front-end.</p>
-		        </div>
-		     </li>    
-		      
-		     <li>
-		        <div class="span4">
-		          <a class="thumbnail" href="http://www.openrepgrid.uni-bremen.de/wiki/" target="_blank">
-		            <img src="./img/openrepgrid_wiki.png" alt="openrepgrid wiki">
-		          </a>
-		        </div>
-		        <div class="span8">
-		           <p class="text-left description">
-		           	 The <a href="http://www.onair.openrepgrid.org" target="_blank">OpenRepGrid wiki</a> is a site for the community to write about grids. Fell free to join us..</p>
-		        </div>
-		     </li>
-		     
-		     
-		     <li>
-		        <div class="span4">
-		          <a class="thumbnail" href="http://www.onair.openrepgrid.org" target="_blank">
-		            <img src="./img/openrepgrid_onair_page.png" alt="openrepgrid onair">
-		          </a>
-		        </div>
-		        <div class="span8">
-		           <p class="text-left description">
-		           	 <a href="http://www.onair.openrepgrid.org" target="_blank">OpenRepGrid</a> is a web based software to analyze single grids. 
-		           	 You can create plots, calculateindexes and generate reports. Give it a try.</p>
-		        </div>
-		     </li>
-		     
-		     <li>
-		        <div class="span4">
-		          <a class="thumbnail" href="http://markheckmann.github.io/OpenRepGrid/" target="_blank">
-		            <img src="./img/multigrid_one_page.png" alt="multigrid one">
-		          </a>
-		        </div>
-		        <div class="span8">
-		           <p class="text-left description">
-		           	<a href="http://www.onair.openrepgrid.org" target="_blank">multigrid one</a> is a web based software to facilitate the application of mixed models to repertory grid data.</p>
-		        </div>
-		     </li>     
-		 </ul> 
-    </div>
- -->     
+
+<!--  Projects -->
+
     <hr class="soften">
 
-    <h1>Active Projects</h1>
+    <h1 id="projects">Active Projects</h1>
     <p class="marketing-byline">Several projects designed from the community for the community</p>
     <div class="row-fluid">
     	<ul class="thumbnails example-sites">
@@ -169,6 +148,7 @@
 		     	 	It does the calculations and visualizations. 
 		     	 	Use it to build your own web-front-end.</p>
 		        </div>
+		        
 		        <div class="span3">
 		          <a class="thumbnail" href="http://www.openrepgrid.uni-bremen.de/wiki/" target="_blank">
 		            <img src="./img/openrepgrid_wiki.png" alt="openrepgrid wiki">
@@ -179,8 +159,7 @@
 		           	 The <a href="http://www.onair.openrepgrid.org" target="_blank">OpenRepGrid wiki</a> is a site for the community to write about grids. Fell free to join us..</p>
 		        </div>
 		     </li>
-		     
-		     
+		      
 		     <li>
 		        <div class="span3">
 		          <a class="thumbnail" href="http://www.onair.openrepgrid.org" target="_blank">
@@ -192,6 +171,7 @@
 		           	 <a href="http://www.onair.openrepgrid.org" target="_blank">OpenRepGrid</a> is a web based software to analyze single grids. 
 		           	 You can create plots, calculateindexes and generate reports. Give it a try.</p>
 		        </div>
+		        
 		        <div class="span3">
 		          <a class="thumbnail" href="http://markheckmann.github.io/OpenRepGrid/" target="_blank">
 		            <img src="./img/multigrid_one_page.png" alt="multigrid one">

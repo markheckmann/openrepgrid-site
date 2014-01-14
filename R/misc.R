@@ -1,0 +1,15 @@
+png("../img/openrepgrid-bg.png", 300, 300, bg="transparent") 
+  par(mar=rep(0,4))
+  plot.new()
+  plot.window(xlim=0:1, ylim=0:1, xaxs="i", yaxs="i")
+  s <- seq(0,1, len=10)
+  abline(h=s, v=s, col="#FFFFFF30")
+  xy <- expand.grid(s, s)
+  #points(xy, pch=".", col="#FFFFFFFF")
+  ps <- s[-length(s)] + .05
+  xyp <- expand.grid(ps, ps)
+  p <- .2
+  set.seed(0)  
+  numbers <- sample(c("", 1:5), length(ps)^2, rep=T, prob=rep(c(1-p, p/5), c(1,5)))
+  text(xyp, labels =numbers, col="#FFFFFF60")
+dev.off()
