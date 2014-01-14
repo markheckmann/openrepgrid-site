@@ -1,0 +1,23 @@
+
+.thumbnail img { 
+	width: 220px;
+	height: 150px; 
+}
+
+.description {
+	margin-left: 15px;
+}
+
+.description2 {
+	margin-right: 5px;
+}
+
+.marketingtext {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.example-sites li { 
+	padding-top: 15px;
+	padding-bottom: 15px 
+}
