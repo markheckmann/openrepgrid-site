@@ -3,21 +3,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>OpenRepGrid - Tools for repertory grids</title>
-        
+
 		<link href="./css/style.css" rel="stylesheet" type="text/css">
 		<link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
 		<link href="./bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="./css/docs.css" rel="stylesheet">
-		
+
         <script src="./js/js.js">	</script>
-		<script src="./js/jquery-2.0.3.js"> </script> 
+		<script src="./js/jquery-2.0.3.js"> </script>
 		<script src="./js/d3.js"> </script>
 		<script src="./bootstrap/js/bootstrap.min.js"> </script>
-		
+
 	</head>
     <body>
-    	
-	
+
+
 	<!--  Navbar -->
 
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -34,7 +34,7 @@
               <li class="active">
                 <a href="./index.html">Home</a>
               </li>
-             
+
   				<li class="dropdown">
     				<a  href="#" class="dropdown-toggle" data-toggle="dropdown">
           			   	Projects
@@ -46,18 +46,18 @@
   					<li><a href="http://www.onair.openrepgrid.org">OpenRepGrid onair</a></li>
   					<li><a href="http://www.multigridone.openrepgrid.org">multigrid one</a></li>
    				 </ul>
-  				</li>             
+  				</li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-    
+
     <div class="jumbotron masthead">
   <div class="container">
     <h1>OpenRepGrid</h1>
     <p>Open source tools for repertory grid data</p>
-  
+
     <ul class="masthead-links">
       <li>
         <a href="https://github.com/markheckmann/openrepgrid-site" target="_blank">GitHub project</a>
@@ -106,23 +106,23 @@
 	 <div class="span4">
         <!-- <img class="marketing-img" src="assets/img/bs-docs-responsive-illustrations.png"> -->
         <h2>Repertory what?</h2>
-        <p class="marketingtext"><a href="http://www.openrepgrid.org">OpenRepGrid</a> centers around software for <a href="http://en.wikipedia.org/wiki/Repertory_grid">repertory grids</a>, 
+        <p class="marketingtext"><a href="http://www.openrepgrid.org">OpenRepGrid</a> centers around software for <a href="http://en.wikipedia.org/wiki/Repertory_grid">repertory grids</a>,
         	a qualitative-quantitative research technique used across various domains from clinical psychology to marketing.</p>
-      </div>   
+      </div>
     <div class="row-fluid">
       <div class="span4">
         <!-- <img class="marketing-img" src="assets/img/bs-docs-twitter-github.png"> TODO -->
         <h2>By users, for users.</h2>
-         <p class="marketingtext">Here, you will find open source software developed by repertory grid enthusiasts to facilitate the 
+         <p class="marketingtext">Here, you will find open source software developed by repertory grid enthusiasts to facilitate the
         	administration and analysis of grids.</p>
       </div>
-     
+
       <div class="span4">
         <!-- <img class="marketing-img" src="assets/img/bs-docs-bootstrap-features.png"> -->
         <h2>Get on board.</h2>
-        <p class="marketingtext">You have feature requests, questions or suggestions? Visit the OpenRepGrid 
-        	<a href="https://groups.google.com/forum/?hl=en#!forum/openrepgrid">discussion site</a>. 
-        	Open Source projects live from contributions. 
+        <p class="marketingtext">You have feature requests, questions or suggestions? Visit the OpenRepGrid
+        	<a href="https://groups.google.com/forum/?hl=en#!forum/openrepgrid">discussion site</a>.
+        	Open Source projects live from contributions.
         	You want to join in? Get in touch!</p>
       </div>
     </div>
@@ -134,17 +134,17 @@
 
     <h1 id="projects">Active Projects</h1>
     <p class="marketing-byline">Several projects designed by the community for the community</p>
-   
-   
+
+
  <!--  <div class="alert alert-error">
 	  <button type="button" class="close" data-dismiss="alert">&times;</button>
 	  <h4>Server trouble</h4>
-	  <p>May, 19th. We still have some trouble with the server.</p> 
-	  <p>OnAir is working again with some bugs.</p> 
+	  <p>May, 19th. We still have some trouble with the server.</p>
+	  <p>OnAir is working again with some bugs.</p>
 	  <p>multigrid one is still down.</p>
 	</div>  -->
-   
-   
+
+
     <div class="row-fluid">
     	<ul class="thumbnails example-sites">
         	<li>
@@ -155,28 +155,45 @@
 		          </a>
 		        </div>
 		        <div class="span3">
-		          <p class="text-left description2">The <a href="http://docu.openrepgrid.org" target="_blank">OpenRepGrid R package</a> 
-		          	is a tool to analyse repertory grid data. 
+		          <p class="text-left description2">The <a href="http://docu.openrepgrid.org" target="_blank">OpenRepGrid R package</a>
+		          	is a tool to analyse repertory grid data.
 		          	Use it for all kinds of calculations and visualizations.
 		     	 	It is a social software project. Feel free to join in!
 		     	 	</p>
 		        </div>
-		        
+
+            <!-- grdsampler -->
+            <div class="span3">
+              <a class="thumbnail project-thumb-img" href="http://gridsampler.openrepgrid.org" target="_blank">
+                <img src="./img/gridsampler.png" alt="gridsampler R package">
+              </a>
+            </div>
+            <div class="span3">
+              <p class="text-left description2">The <a href="http://gridsampler.openrepgrid.org" target="_blank">gridsampler</a>
+                software (see <a href="http://openresearchsoftware.metajnl.com/article/10.5334/jors.150/" target="_blank">puclication</a>)
+                      helps determining the required sample size for multiple grid studies.
+                      It is available online and as an R package on your desktop.
+            </p>
+            </div>
+
 		        <!-- wiki -->
-		        <div class="span3">
+
+            <!--
+            <div class="span3">
 		          <a class="thumbnail" href="http://www.openrepgrid.uni-bremen.de/wiki/" target="_blank">
 		            <img src="./img/openrepgrid_wiki.png" alt="openrepgrid wiki">
 		          </a>
 		        </div>
 		        <div class="span3">
 		           <p class="text-left description2">
-		           	 The <a href="http://www.openrepgrid.uni-bremen.de/wiki/" target="_blank">OpenRepGrid wiki</a> 
-		           	 is a site for the community to write about grids. 
+		           	 The <a href="http://www.openrepgrid.uni-bremen.de/wiki/" target="_blank">OpenRepGrid wiki</a>
+		           	 is a site for the community to write about grids.
 		           	 It is kept here for documentation purposes only as it has been replaced by
 		           	 <a href="http://docu.openrepgrid.org" target="_blank">this site</a>.</p>
 		        </div>
+          -->
 		     </li>
-		      
+
 		     <li>
 		     	<!-- onair -->
 		        <div class="span3">
@@ -186,7 +203,7 @@
 		        </div>
 		        <div class="span3">
 		           <p class="text-left description2">
-		           	 <a href="http://www.onair.openrepgrid.org" target="_blank">OpenRepGrid onair</a> is a web based software to analyze single grids. 
+		           	 <a href="http://www.onair.openrepgrid.org" target="_blank">OpenRepGrid onair</a> is a web based software to analyze single grids.
 		           	 You can create plots, calculate indexes and generate reports. Give it a try!</p>
 		        </div>
 		        <!-- multigrid one -->
@@ -199,36 +216,19 @@
 		           <p class="text-left description2">
 		           	<a href="http://www.multigridone.openrepgrid.org" target="_blank">multigrid one</a> is a web based software to facilitate the application of mixed models for repertory grid data.</p>
 		        </div>
-		     </li>     
-            
-             <li>
-        		<!-- grdsampler -->
-		        <div class="span3">
-		          <a class="thumbnail project-thumb-img" href="http://gridsampler.openrepgrid.org" target="_blank">
-		            <img src="./img/gridsampler.png" alt="gridsampler R package">
-		          </a>
-		        </div>
-		        <div class="span3">
-		          <p class="text-left description2">The <a href="http://gridsampler.openrepgrid.org" target="_blank">gridsampler</a> 
-		          	software helps determining the required sample size for multiple grid studies.
-                      It is available online and as an R package on your desktop.
-		     	 	</p>
-		        </div>
-		        
-
 		     </li>
-            
-		 </ul> 
+
+		 </ul>
     </div>
-       
+
    </div>
  </div>
-  
+
 
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">  
+      <div class="container">
         <p>Design borrowed from the marvelous <a href="http://getbootstrap.com/2.3.2/index.html" target="_blank">bootstrap2</a> landing page.
           Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>.
         <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
@@ -242,9 +242,9 @@
     </footer>
 
 
-    	<script>	
+    	<script>
 
     	</script>
     </body>
-    	
+
 </html>
