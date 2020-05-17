@@ -1,4 +1,4 @@
 openrepgrid-site
 ================
 
-Landing page for the OpenRepGrid project
+See branch gh-pages
